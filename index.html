@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grizzly Cat Shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- custom js file link  -->
+    <script src="/script/script.js"></script>
+
+   
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- sidebar-->
+    <input type="checkbox" id="check" />
+    <div class="sidebar">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#collab" target="_self">collab</a></li>
+          <li><a href="#review" target="_self">review</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#video">Promote</a></li>
+          <li></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div class="logoContent">
+        <a href="#" class="logo"><img src="asset/toko.jpg" alt="" /></a>
+        <h1 class="logoName"></h1>
+      </div>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#collab" target="_self">collab</a>
+        <a href="#review" target="_self">review</a>
+        <a href="#team">Team</a>
+        <a href="#video">Video</a>
+      </nav>
+
+      <!-- Menu Mobile -->
+      <label for="check" class="mobile-menu"> <i class="fa-solid fa-bars fa-3x"></i></label>
+    </header>
+
+    <!-- header section ends -->
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3><b>Hai Para Babu Kucing</b></h3>
+        <p>Welcome to Grizzy Cat Cafe! Menikmati makanan sambil berinteraksi dan berbagi kasih sayang dengan kucing semua bisa anda dapatkan saat berada di Cat Cafe Grizzly</p>
+        <a href="#order" class="btn" onclick="return confirm('Apakah Anda ingin memesan? Jika ya, harap konfirmasi melalui kontak.');">order now</a>
+
+      </div>
+
+      <div class="image">
+        <img src="asset/kucing5.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="collab" id="collab">
+      <div id="content">
+        <article class="card" id="starry">
+          <h1 class="heading">Grizzly with<span> Meong Idols</span></h1>
+          <img src="" class="featured-image" />
+          <div style="width: 100%; overflow-y: auto; margin: 0 auto; margin-bottom: 20px">
+            <div style="display: flex; overflow-x: auto">
+              <div style="flex-grow: 1">
+                <div class="card" style="background-color: #fffdd08f; margin: 5px; width: 300px; height: 340px">
+                  <img src="asset/kucing1.jpg" width="250" height="250" alt="" />
+                  <p>Marmut</p>
+                </div>
+              </div>
+              <div style="flex-grow: 1">
+                <div class="card" style="background-color: #fffdd08f; margin: 5px; width: 300px; height: 340px">
+                  <img src="asset/kucing2.jpg" width="250" height="250" alt="" />
+                  <p>Molly</p>
+                </div>
+              </div>
+              <div style="flex-grow: 1">
+                <div class="card" style="background-color: #fffdd08f; margin: 5px; width: 300px; height: 340px">
+                  <img src="asset/kucing3.jpg" width="250" height="250" alt="" />
+                  <p>Pororo</p>
+                </div>
+              </div>
+              <div style="flex-grow: 1">
+                <div class="card" style="background-color: #fffdd08f; margin: 5px; width: 300px; height: 340px">
+                  <img src="asset/kucing4.jpg" width="250" height="250" alt="" />
+                  <p>Snowy</p>
+                </div>
+              </div>
+              <div style="flex-grow: 1">
+                <div class="card" style="background-color: #fffdd08f; margin: 5px; width: 300px; height: 340px">
+                  <img src="asset/kucing6.jpg" width="250" height="250" alt="" />
+                  <p>Chae</p>
+                </div>
+              </div>
+              <div style="flex-grow: 1">
+                <div class="card" style="background-color: #fffdd08f; margin: 5px; width: 300px; height: 340px">
+                  <img src="asset/kucing7.jpg" width="250" height="250" alt="" />
+                  <p>Cici</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="parallax">
+      <h3>
+        Grizzly Cat Shop Hadir di Yogyakarta dengan tema bersantai dan menyantap makanan dan minuman dengan kucing kucing yang ada disini dan juga sambil berbagi kepada makhluk hidup yaitu kucing itu sendiri
+      </h3>
+    </div>
+
+    <section class="review" id="review">
+      <h1 class="heading">our customers <span>reviews</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="asset/eren.jpg" alt="" />
+          <h3>Eren</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>cakenya beneran enak banget, manisnya pas dan ada aftertaste yang manis juga, recommended 👍</p>
+        </div>
+        <div class="box">
+          <img src="asset/Izuku.jpg" alt="" />
+          <h3>Izuku</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>the best cake in the town everrr! ⭐️ none can doubt soalnya emang seenak ituu? flavornya unik dan manisnya passs bangett! mau dimakan berkali-kali juga gabuat bosen, malah nagihh! love it muchhh!</p>
+        </div>
+        <div class="box">
+          <img src="asset/Killua.jpg" alt="" />
+          <h3>Killua</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>Cake nya enak bangettt, manis nya pas ga bikin bosen, terus juga lembut banget dan topping nya banyak. Pengiriman nya juga aman dan cepet banget jadinya👍</p>
+        </div>
+        <div class="box">
+          <img src="asset/luffy.jpg" alt="" />
+          <h3>Luffy</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>enak bangeeeet kuenyaaaa lembut dan flavorful!! 🥺🥺 tampilannya juga tempting banget huhu ten out of ten <3 😆🥰🥰</p>
+        </div>
+        <div class="box">
+          <img src="asset/levi.jpg" alt="" />
+          <h3>Levi</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Cake nya Grizzly tuh ga ada yg ga enaaak😭 aku bisa kali ya sehari tuh beli menu yang beda beda disini DAN semua rasanya tuh heavenly delicious *chefs kiss* 🤤 OHIYAAA, plus point for the owner and its staff because
+            they have the best service ever! ⭐️⭐️⭐️⭐️⭐️
+          </p>
+        </div>
+        <div class="box">
+          <img src="asset/anya.jpg" alt="" />
+          <h3>Anya</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>cakenya enakkk, manisnya pas bgtt ga bikin enek dan lembutt 😋😋 recommended deh 👍</p>
+        </div>
+        <div class="box">
+          <img src="asset/Shikimori.jpg" alt="" />
+          <h3>Shikimori</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>kue nyaa enak banget kakk, dekor nyaa juga cantik bangettt pokoknya worth it dehh makasi kakk bakal langganan pokoknyaa❣️❣️</p>
+        </div>
+        <div class="box">
+          <img src="asset/Nobara.jpg" alt="" />
+          <h3>Nobara</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>⭐️⭐️⭐️⭐️⭐️ cakenya enaak, fluffy terus manisnya pas! pilihan menunya juga banyak bangett ++ harganya worth untuk rasa yang seenak ini</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <h1 class="heading">our <span>team</span></h1>
+
+      <div class="main-team">
+        <div class="profile-card">
+          <div class="img">
+            <img src="asset/gojo.jpg" />
+          </div>
+          <div class="caption">
+            <h3>Gojo Satoru</h3>
+            <p>08812378932</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src="asset/Makima.jpg" />
+          </div>
+          <div class="caption">
+            <h3>Mrs.Makima</h3>
+            <p>081267891395</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src="asset/Megumi.jpg" />
+          </div>
+          <div class="caption">
+            <h3>Megumi Fushiguro</h3>
+            <p>081234341823</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src="asset/Toji.jpg" />
+          </div>
+          <div class="caption">
+            <h3>Toji Fushigurp</h3>
+            <p>012309874567</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src="asset/suguru.jpg" />
+          </div>
+          <div class="caption">
+            <h3>Suguru Geto</h3>
+            <p>081256472901</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video section starts -->
+    <section class="video" id="video">
+        <h1 class="heading">watch our <span>video</span></h1>
+        <div class="video-container">
+          <video controls>
+            <source src="asset/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+</script>
+<script>src = "./script/script.js"</script>
+  </body>
+</html>
